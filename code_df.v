@@ -1,3 +1,6 @@
+// net_f_sa0 is the node net_f when it is stuck-at 0.
+// Z_sa0 is the output when net_f is stuck-at 0.
+
 module code_df(Z,Z_sa0,net_f_sa0,A,B,C,D);
 input net_f_sa0,A,B,C,D;
 output Z,Z_sa0;
