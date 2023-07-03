@@ -1,0 +1,43 @@
+Time and Space Complexity of part1.py python File
+
+Time Complexity:
+1. Opening the circuit_file.txt and part2.py files takes constant time and can be ignored in the overall complexity analysis.
+2. Iterating through each line in code and appending it to the part2.py file takes O(n) time, where n is the number of lines in the code list.
+3. The if condition inside the loop and modifying the line of code takes constant time.
+4. Printing the modified code to part2.py also takes constant time.
+5. The last three print statements take constant time.
+Therefore, the overall time complexity of this code is O(n), where n is the number of lines in the code list.
+
+Space Complexity:
+1. The code list stores each line from the circuit_file.txt file, so it requires space proportional to the number of lines in the file.
+2. The part2.py file is opened in append mode, but since the code is being printed line by line, the space complexity is not dependent on the number of lines.
+3. The str1 and str2 variables store constant-sized strings.
+Therefore, the space complexity of this code is O(n), where n is the number of lines in the circuit_file.txt file, as that is the major factor contributing to the space usage.
+
+It's important to note that the analysis provided here assumes that the size of the code list is the same as the number of lines in the circuit_file.txt file. 
+If the code list is constructed differently or modified during the execution of the code, the complexity analysis might change accordingly.
+
+***
+
+Time and Space Complexity of part2.py python File
+
+Time Complexity:
+
+1. Opening the circuit_file.txt and output.txt files takes constant time and can be ignored in the overall complexity analysis.
+2. Reading the lines from circuit_file.txt and appending them to the code list takes O(n) time, where n is the number of lines in the file.
+3. Iterating through each line in the code list takes O(m) time, where m is the number of lines in the code list.
+4. Within the loop, there are multiple conditional statements, but each statement operates on a constant number of variables and performs constant operations, so the time complexity of each individual condition is constant.
+5. The last three print statements take constant time.
+Therefore, the overall time complexity of this code is O(n + m), where n is the number of lines in circuit_file.txt and m is the number of lines in the code list.
+
+Space Complexity:
+
+1. The code list stores each line from the circuit_file.txt file, so it requires space proportional to the number of lines in the file.
+2. The output list has a constant size of 4, as it represents the state of variables A, B, C, and D.
+3. The variables A, B, C, D, FAULT_AT, and FAULT_TYPE require constant space.
+4. The net_e, net_f, and net_g variables require constant space.
+5. The Z variable requires constant space.
+6. The output.txt file is opened in append mode, but since the data is being printed line by line, the space complexity is not dependent on the number of lines.
+Therefore, the space complexity of this code is O(n), where n is the number of lines in the circuit_file.txt file, as that is the major factor contributing to the space usage.
+
+Please note that this analysis assumes that the size of the code list is the same as the number of lines in the circuit_file.txt file and does not take into account any additional memory usage or side effects caused by executing the code.
