@@ -1,5 +1,4 @@
-cf = input('Enter the path of circuit file: ')
-with open(cf,'r') as file1, open('code2.py','a') as file2:
+with open('circuit_file.txt','r') as file1, open('part2.py','a') as file2:
 	code=list()
 	for line in file1:
 		code.append(line.rstrip())
