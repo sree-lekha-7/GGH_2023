@@ -1,7 +1,9 @@
 '''
-Inputs: 
-	The node at which fault exists.
-	Type of fault, either SA0 or SA1.
+1. Please enter the following inputs during the runtime:
+	a. FAULT_AT: The node at which fault exists.
+	b. FAULT_TYPE: The type of fault, either SA0 or SA1.
+ 2. Ensure that the case of the nodes is same as it was in circuit_file.txt file. 
+ 3. Please enter SA1 and SA0, which one is the fault type, in uppercase only.
 '''
 A = 0
 B = 0
