@@ -1,3 +1,10 @@
+'''
+1. part1.py is a python file that is resposible for appending the circuit to the logic written in part2.py along with necesarry codes 
+	required for the generation of the output.
+2. circuit_file.txt is the file which has the logic code of the circuit. See the sample in this repository.
+3. part2.py is a python file that is resposible for generation of output.
+4. (~x+2) is equivalent to int(not(x)) in python.
+'''
 with open('circuit_file.txt','r') as file1, open('part2.py','a') as file2:
 	code=list()
 	for line in file1:
