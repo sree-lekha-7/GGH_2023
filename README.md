@@ -60,7 +60,7 @@ You will be taken to the Command Prompt.
 <br />![image](https://github.com/sree-lekha-7/GGH/assets/138370659/c2528146-42d4-4186-8c6e-fe9103093958)
 
 5\. Close Command Prompt. You will find an 'output.txt' file. Open the file and check your output.
-<br />![image](https://github.com/sree-lekha-7/GGH/assets/138370659/ca0c1030-8f95-4f59-8b49-57520504e357)
+<br />![image](https://github.com/sree-lekha-7/GGH/assets/138370659/b9dfd8a8-a220-452d-8103-a69f74420927)
 ![image](https://github.com/sree-lekha-7/GGH/assets/138370659/eed705b1-0e1d-4ac5-973e-7c40f4c8a4fb)
 
 <br />**PART 5: Run Verilog codes**
